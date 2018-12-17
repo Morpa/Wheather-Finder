@@ -1,3 +1,6 @@
+# *Weather Find*
+Pequena aplicação de previsão do tempo, desenvolvida com React (baseada no projeto do tutorial do [Hamza Mirza](https://www.youtube.com/channel/UCBV-JvG9Ubkj7AU6Cxls1Tw),  consumindo dados da api do OpenWheatherMap (https://openweathermap.org/) . 
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
