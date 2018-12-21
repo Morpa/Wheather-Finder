@@ -41,7 +41,7 @@ export default class App extends Component {
 
   handleCall() {
     const city = document.querySelector("#city").value
-    axios(`http://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${API_KEY}&units=metric&lang=${lang}`)
+    axios(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${API_KEY}&units=metric&lang=${lang}`)
       .then(resp => {
         return this.setState({
           temperature: Math.round(resp.data.main.temp),
